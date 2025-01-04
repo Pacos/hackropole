@@ -26,7 +26,7 @@ def parse_file(filename) -> RSA:
 
 
 if __name__ == '__main__':
-    rsa = parse_file("resources/adversarial/output.txt")
+    rsa = parse_file(".resources/adversarial/output.txt")
     # https://en.wikipedia.org/wiki/RSA_(cryptosystem)
     # since only one prime coefficient was used, we know that lambda(n) = n-1
     # that gives us an easy reverse compute of the private key :
